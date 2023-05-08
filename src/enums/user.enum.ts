@@ -11,3 +11,10 @@ export enum UserTokenStatus {
   ACTIVE = 'ACTIVE',
   INACTIVE = 'INACTIVE',
 }
+
+export enum UserProfileRelationshipStatus {
+  SINGLE,
+  IN_RELATIONSHIP,
+  MARRIED,
+  SECRET,
+}
