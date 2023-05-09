@@ -17,8 +17,8 @@ var UserTokenStatus;
 })(UserTokenStatus = exports.UserTokenStatus || (exports.UserTokenStatus = {}));
 var UserProfileRelationshipStatus;
 (function (UserProfileRelationshipStatus) {
-    UserProfileRelationshipStatus[UserProfileRelationshipStatus["SINGLE"] = 0] = "SINGLE";
-    UserProfileRelationshipStatus[UserProfileRelationshipStatus["IN_RELATIONSHIP"] = 1] = "IN_RELATIONSHIP";
-    UserProfileRelationshipStatus[UserProfileRelationshipStatus["MARRIED"] = 2] = "MARRIED";
-    UserProfileRelationshipStatus[UserProfileRelationshipStatus["SECRET"] = 3] = "SECRET";
+    UserProfileRelationshipStatus["SINGLE"] = "SINGLE";
+    UserProfileRelationshipStatus["IN_RELATIONSHIP"] = "IN_RELATIONSHIP";
+    UserProfileRelationshipStatus["MARRIED"] = "MARRIED";
+    UserProfileRelationshipStatus["SECRET"] = "SECRET";
 })(UserProfileRelationshipStatus = exports.UserProfileRelationshipStatus || (exports.UserProfileRelationshipStatus = {}));

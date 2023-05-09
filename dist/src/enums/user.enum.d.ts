@@ -10,8 +10,8 @@ export declare enum UserTokenStatus {
     INACTIVE = "INACTIVE"
 }
 export declare enum UserProfileRelationshipStatus {
-    SINGLE = 0,
-    IN_RELATIONSHIP = 1,
-    MARRIED = 2,
-    SECRET = 3
+    SINGLE = "SINGLE",
+    IN_RELATIONSHIP = "IN_RELATIONSHIP",
+    MARRIED = "MARRIED",
+    SECRET = "SECRET"
 }

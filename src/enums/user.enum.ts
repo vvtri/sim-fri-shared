@@ -13,8 +13,8 @@ export enum UserTokenStatus {
 }
 
 export enum UserProfileRelationshipStatus {
-  SINGLE,
-  IN_RELATIONSHIP,
-  MARRIED,
-  SECRET,
+  SINGLE = 'SINGLE',
+  IN_RELATIONSHIP = 'IN_RELATIONSHIP',
+  MARRIED = 'MARRIED',
+  SECRET = 'SECRET',
 }
