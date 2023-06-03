@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.WS_EVENT = exports.WS_NAMESPACE = void 0;
-exports.WS_NAMESPACE = {
+exports.WS_MESSAGE_EVENT = exports.WS_MESSAGE_NAMESPACE = void 0;
+exports.WS_MESSAGE_NAMESPACE = {
     CHAT: 'chat',
 };
-exports.WS_EVENT = {
-    JOIN_ROOM: 'join_room',
-    LEAVE_ROOM: 'leave_room',
+exports.WS_MESSAGE_EVENT = {
+    MESSAGE_SENT: 'message_sent',
+    MESSAGE_VIEWED: 'message_viewed',
 };

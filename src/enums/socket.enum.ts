@@ -1,8 +1,8 @@
-export const WS_NAMESPACE = {
+export const WS_MESSAGE_NAMESPACE = {
   CHAT: 'chat',
 };
 
-export const WS_EVENT = {
-  JOIN_ROOM: 'join_room',
-  LEAVE_ROOM: 'leave_room',
+export const WS_MESSAGE_EVENT = {
+  MESSAGE_SENT: 'message_sent',
+  MESSAGE_VIEWED: 'message_viewed',
 };
