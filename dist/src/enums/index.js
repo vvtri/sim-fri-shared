@@ -16,6 +16,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./common.enum"), exports);
 __exportStar(require("./file.enum"), exports);
+__exportStar(require("./friend.enum"), exports);
 __exportStar(require("./message.enum"), exports);
 __exportStar(require("./post.enum"), exports);
 __exportStar(require("./socket.enum"), exports);
