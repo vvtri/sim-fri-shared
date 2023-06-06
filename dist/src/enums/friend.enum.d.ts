@@ -1,4 +1,4 @@
-export declare enum FriendStatus {
+export declare enum FriendRequestStatus {
     PENDING = "PENDING",
     ACCEPTED = "ACCEPTED"
 }
