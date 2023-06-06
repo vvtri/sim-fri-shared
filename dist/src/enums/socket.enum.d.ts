@@ -13,4 +13,6 @@ export declare const WS_MESSAGE_EVENT: {
     NEW_USER_JOINED: string;
     SEND_RETURN_SIGNAL: string;
     RECEIVE_RETURN_SIGNAL: string;
+    INVALID_CALL: string;
+    USER_LEFT_ROOM: string;
 };

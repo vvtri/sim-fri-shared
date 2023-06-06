@@ -16,4 +16,6 @@ exports.WS_MESSAGE_EVENT = {
     NEW_USER_JOINED: 'new_user_joined',
     SEND_RETURN_SIGNAL: 'send_return_signal',
     RECEIVE_RETURN_SIGNAL: 'receive_return_signal',
+    INVALID_CALL: 'invalid_call',
+    USER_LEFT_ROOM: 'user_left_room',
 };
