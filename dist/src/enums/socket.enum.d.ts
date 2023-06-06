@@ -15,4 +15,5 @@ export declare const WS_MESSAGE_EVENT: {
     RECEIVE_RETURN_SIGNAL: string;
     INVALID_CALL: string;
     USER_LEFT_ROOM: string;
+    LEAVE_CALL: string;
 };

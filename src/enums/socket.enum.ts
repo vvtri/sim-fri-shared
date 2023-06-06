@@ -16,4 +16,5 @@ export const WS_MESSAGE_EVENT = {
   RECEIVE_RETURN_SIGNAL: 'receive_return_signal',
   INVALID_CALL: 'invalid_call',
   USER_LEFT_ROOM: 'user_left_room',
+  LEAVE_CALL: 'leave_call',
 };
