@@ -6,6 +6,7 @@ export declare enum MessageType {
     SYSTEM = "SYSTEM"
 }
 export declare enum ConversationMemberRole {
+    OWNER = "OWNER",
     ADMIN = "ADMIN",
     MEMBER = "MEMBER"
 }

@@ -7,6 +7,7 @@ export enum MessageType {
 }
 
 export enum ConversationMemberRole {
+  OWNER = 'OWNER',
   ADMIN = 'ADMIN',
   MEMBER = 'MEMBER',
 }

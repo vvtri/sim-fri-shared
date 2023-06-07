@@ -11,6 +11,7 @@ var MessageType;
 })(MessageType = exports.MessageType || (exports.MessageType = {}));
 var ConversationMemberRole;
 (function (ConversationMemberRole) {
+    ConversationMemberRole["OWNER"] = "OWNER";
     ConversationMemberRole["ADMIN"] = "ADMIN";
     ConversationMemberRole["MEMBER"] = "MEMBER";
 })(ConversationMemberRole = exports.ConversationMemberRole || (exports.ConversationMemberRole = {}));
