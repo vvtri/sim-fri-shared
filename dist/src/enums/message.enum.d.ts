@@ -2,7 +2,8 @@ export declare enum MessageType {
     TEXT = "TEXT",
     FILE = "FILE",
     IMAGE = "IMAGE",
-    CALL = "CALL"
+    CALL = "CALL",
+    SYSTEM = "SYSTEM"
 }
 export declare enum ConversationMemberRole {
     ADMIN = "ADMIN",

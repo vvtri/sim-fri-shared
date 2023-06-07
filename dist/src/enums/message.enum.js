@@ -7,6 +7,7 @@ var MessageType;
     MessageType["FILE"] = "FILE";
     MessageType["IMAGE"] = "IMAGE";
     MessageType["CALL"] = "CALL";
+    MessageType["SYSTEM"] = "SYSTEM";
 })(MessageType = exports.MessageType || (exports.MessageType = {}));
 var ConversationMemberRole;
 (function (ConversationMemberRole) {

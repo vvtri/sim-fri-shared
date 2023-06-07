@@ -3,6 +3,7 @@ export enum MessageType {
   FILE = 'FILE',
   IMAGE = 'IMAGE',
   CALL = 'CALL',
+  SYSTEM = 'SYSTEM',
 }
 
 export enum ConversationMemberRole {
