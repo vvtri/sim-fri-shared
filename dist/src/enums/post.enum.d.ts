@@ -3,3 +3,8 @@ export declare enum PostReactionType {
     LOVE = "LOVE",
     ANGRY = "ANGRY"
 }
+export declare enum CommentReactionType {
+    LIKE = "LIKE",
+    LOVE = "LOVE",
+    ANGRY = "ANGRY"
+}

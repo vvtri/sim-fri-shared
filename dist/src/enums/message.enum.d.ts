@@ -14,3 +14,8 @@ export declare enum MessageReadInfoStatus {
     READ = "READ",
     UNREAD = "UNREAD"
 }
+export declare enum MessageReactionType {
+    LIKE = "LIKE",
+    LOVE = "LOVE",
+    ANGRY = "ANGRY"
+}
