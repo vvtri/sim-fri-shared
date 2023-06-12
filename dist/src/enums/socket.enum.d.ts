@@ -16,6 +16,6 @@ export declare const WS_MESSAGE_EVENT: {
     INVALID_CALL: string;
     USER_LEFT_ROOM: string;
     LEAVE_CALL: string;
-    MUTE_MIC: string;
-    OFF_CAMERA: string;
+    TOGGLE_MIC: string;
+    TOGGLE_CAMERA: string;
 };
