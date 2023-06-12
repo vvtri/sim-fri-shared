@@ -19,4 +19,6 @@ exports.WS_MESSAGE_EVENT = {
     INVALID_CALL: 'invalid_call',
     USER_LEFT_ROOM: 'user_left_room',
     LEAVE_CALL: 'leave_call',
+    MUTE_MIC: 'mute_mic',
+    OFF_CAMERA: 'off_camera',
 };
