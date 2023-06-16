@@ -20,6 +20,7 @@ var FileType;
     FileType["xlsx"] = "xlsx";
     FileType["xls"] = "xls";
     FileType["csv"] = "csv";
+    FileType["unknown"] = "unknown";
 })(FileType = exports.FileType || (exports.FileType = {}));
 var AudienceType;
 (function (AudienceType) {

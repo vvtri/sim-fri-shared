@@ -14,7 +14,8 @@ export declare enum FileType {
     wav = "wav",
     xlsx = "xlsx",
     xls = "xls",
-    csv = "csv"
+    csv = "csv",
+    unknown = "unknown"
 }
 export declare enum AudienceType {
     ONLY_ME = "ONLY_ME",

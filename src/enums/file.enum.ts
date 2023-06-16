@@ -16,6 +16,7 @@ export enum FileType {
   xlsx = 'xlsx',
   xls = 'xls',
   csv = 'csv',
+  unknown = 'unknown',
 }
 
 export enum AudienceType {
