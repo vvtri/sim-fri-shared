@@ -3,6 +3,11 @@ export enum NotiType {
   MENTION = 'MENTION',
 }
 
+export enum NotiTemplateType {
+  COMMENT = 'COMMENT',
+  MENTION = 'MENTION',
+}
+
 export enum NotiSenderType {
   USER = 'USER',
 }
