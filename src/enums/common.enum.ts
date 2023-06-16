@@ -9,3 +9,8 @@ export enum AppEnvironment {
   DEVELOPMENT = 'development',
   PRODUCTION = 'production',
 }
+
+export enum Language {
+  VN = 'vn',
+  EN = 'en',
+}
