@@ -18,6 +18,7 @@ __exportStar(require("./common.enum"), exports);
 __exportStar(require("./file.enum"), exports);
 __exportStar(require("./friend.enum"), exports);
 __exportStar(require("./message.enum"), exports);
+__exportStar(require("./noti.enum"), exports);
 __exportStar(require("./post.enum"), exports);
 __exportStar(require("./socket.enum"), exports);
 __exportStar(require("./user.enum"), exports);
