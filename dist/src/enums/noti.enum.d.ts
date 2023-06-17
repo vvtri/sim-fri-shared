@@ -1,10 +1,11 @@
 export declare enum NotiType {
     COMMENT = "COMMENT",
-    MENTION = "MENTION"
+    LIKE = "LIKE"
 }
 export declare enum NotiTemplateType {
     COMMENT = "COMMENT",
-    MENTION = "MENTION"
+    MENTION = "MENTION",
+    LIKE = "LIKE"
 }
 export declare enum NotiSenderType {
     USER = "USER"
