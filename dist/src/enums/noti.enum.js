@@ -9,6 +9,7 @@ var NotiType;
 var NotiTemplateType;
 (function (NotiTemplateType) {
     NotiTemplateType["COMMENT"] = "COMMENT";
+    NotiTemplateType["REPLY_COMMENT"] = "REPLY_COMMENT";
     NotiTemplateType["MENTION"] = "MENTION";
     NotiTemplateType["REACTION"] = "REACTION";
 })(NotiTemplateType = exports.NotiTemplateType || (exports.NotiTemplateType = {}));

@@ -5,6 +5,7 @@ export enum NotiType {
 
 export enum NotiTemplateType {
   COMMENT = 'COMMENT',
+  REPLY_COMMENT = 'REPLY_COMMENT',
   MENTION = 'MENTION',
   REACTION = 'REACTION',
 }
