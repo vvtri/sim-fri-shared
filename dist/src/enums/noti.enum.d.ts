@@ -1,12 +1,8 @@
 export declare enum NotiType {
-    COMMENT = "COMMENT",
-    REACTION = "REACTION"
-}
-export declare enum NotiTemplateType {
-    COMMENT = "COMMENT",
-    REPLY_COMMENT = "REPLY_COMMENT",
-    MENTION = "MENTION",
-    REACTION = "REACTION"
+    POST_REACTION = "POST_REACTION",
+    COMMENT_POST = "COMMENT_POST",
+    COMMENT_REACTION = "COMMENT_REACTION",
+    REPLY_COMMENT = "REPLY_COMMENT"
 }
 export declare enum NotiSenderType {
     USER = "USER"

@@ -1,18 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.NotiSenderType = exports.NotiTemplateType = exports.NotiType = void 0;
+exports.NotiSenderType = exports.NotiType = void 0;
 var NotiType;
 (function (NotiType) {
-    NotiType["COMMENT"] = "COMMENT";
-    NotiType["REACTION"] = "REACTION";
+    NotiType["POST_REACTION"] = "POST_REACTION";
+    NotiType["COMMENT_POST"] = "COMMENT_POST";
+    NotiType["COMMENT_REACTION"] = "COMMENT_REACTION";
+    NotiType["REPLY_COMMENT"] = "REPLY_COMMENT";
 })(NotiType = exports.NotiType || (exports.NotiType = {}));
-var NotiTemplateType;
-(function (NotiTemplateType) {
-    NotiTemplateType["COMMENT"] = "COMMENT";
-    NotiTemplateType["REPLY_COMMENT"] = "REPLY_COMMENT";
-    NotiTemplateType["MENTION"] = "MENTION";
-    NotiTemplateType["REACTION"] = "REACTION";
-})(NotiTemplateType = exports.NotiTemplateType || (exports.NotiTemplateType = {}));
 var NotiSenderType;
 (function (NotiSenderType) {
     NotiSenderType["USER"] = "USER";
