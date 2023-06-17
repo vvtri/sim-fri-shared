@@ -1,12 +1,12 @@
 export enum NotiType {
   COMMENT = 'COMMENT',
-  LIKE = 'LIKE',
+  REACTION = 'REACTION',
 }
 
 export enum NotiTemplateType {
   COMMENT = 'COMMENT',
   MENTION = 'MENTION',
-  LIKE = 'LIKE',
+  REACTION = 'REACTION',
 }
 
 export enum NotiSenderType {
